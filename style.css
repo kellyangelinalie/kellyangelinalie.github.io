@@ -26,7 +26,7 @@ a:hover {
 
 @font-face {
     font-family: EBGaramond-Italic;
-    src: url(../EB_Garamond/static/EBGaramond-Italic.ttf);
+    src: url(../);
 }
 /* bagian nav dan header */
 
@@ -308,7 +308,7 @@ header .text h1 {
 
 .column-3 p {
     font-size: 48px;
-    padding: 8vh 375px 8vh 69vh;
+    padding: 8vh 376px 8vh 65vh;
 }
 
 .kedua img {
@@ -352,7 +352,7 @@ header .text h1 {
 
 .content p {
     font-size: 48px;
-    padding: 8vh 400px 8vh 70vh
+    padding: 8vh 400px 8vh 66vh
 }
 
 /* illusion */
@@ -360,14 +360,17 @@ header .text h1 {
 .content2 {
     display: flex;
     justify-content: center;
-    padding-left: 42vh;
     padding-top: 60px;
+    padding-left: 33vh;
 }
 
 .we p {
     font-size: 48px;
-    padding: 8vh 400px 8vh 78vh
+    padding: 8vh 400px 8vh;
+    padding-left: 65vh;
+
 }
+
 /* klairs */
 
 .image-1 .column-1 .special1 img {
@@ -487,7 +490,7 @@ header .text h1 {
 
 .column-6 p {
     font-size: 48px;
-    padding: 0vh 148px 8vh 85vh;
+    padding: 0vh 148px 8vh 84vh;
 }
 
 .project-name6 {
