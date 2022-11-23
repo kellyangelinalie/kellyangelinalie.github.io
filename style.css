@@ -308,7 +308,7 @@ header .text h1 {
 
 .column-3 p {
     font-size: 48px;
-    padding: 8vh 376px 8vh 65vh;
+    padding: 8vh 376px 8vh 70vh;
 }
 
 .kedua img {
@@ -352,7 +352,7 @@ header .text h1 {
 
 .content p {
     font-size: 48px;
-    padding: 8vh 400px 8vh 66vh
+    padding: 8vh 400px 8vh 70vh
 }
 
 /* illusion */
@@ -361,13 +361,13 @@ header .text h1 {
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    padding-left: 33vh;
+    padding-left: 38vh;
 }
 
 .we p {
     font-size: 48px;
     padding: 8vh 400px 8vh;
-    padding-left: 65vh;
+    padding-left: 71vh;
 
 }
 
@@ -518,7 +518,7 @@ header .text h1 {
 }
 
 .other img {
-    padding-top: 7vh;
+    padding-top: 94px;
 }
 
 .display {
@@ -595,8 +595,8 @@ header .text h1 {
 /* about page */
 
 #textDiv {
-    padding-left: 20vh;
-    padding-right: 29vh;
+    padding-left: 21vh;
+    padding-right: 30vh;
     padding-bottom: 130px;
 }
 
