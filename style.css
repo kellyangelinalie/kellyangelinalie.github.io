@@ -15,7 +15,7 @@ body {
 .background__wrapper {
     overflow: hidden;
     position: absolute;
-    top: 490vh;
+    top: 516vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -37,7 +37,7 @@ body {
 .background__wrapper2 {
     overflow: hidden;
     position: absolute;
-    top: 100vh;
+    top: 105vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -58,7 +58,7 @@ body {
 .background__wrapper3 {
     overflow: hidden;
     position: absolute;
-    top: 342vh;
+    top: 358vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -79,7 +79,7 @@ body {
 .background__wrapper4 {
     overflow: hidden;
     position: absolute;
-    top: 300vh;
+    top: 315vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -101,7 +101,7 @@ body {
 .background__wrapper5 {
     overflow: hidden;
     position: absolute;
-    top: 327vh;
+    top: 338vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -499,7 +499,7 @@ header .text h1 {
 
 .column-3 p {
     font-size: 48px;
-    padding: 8vh 200px 8vh 65vh;
+    padding: 8vh 200px 8vh 70vh;
     position: relative;
 }
 
@@ -544,7 +544,7 @@ header .text h1 {
 
 .content p {
     font-size: 48px;
-    padding: 8vh 200px 8vh 66vh;
+    padding: 8vh 200px 8vh 70vh;
 }
 
 /* illusion */
@@ -565,7 +565,7 @@ header .text h1 {
 
 .we p {
     font-size: 48px;
-    padding-left: 67vh;
+    padding-left: 68vh;
     padding-right: 36vh;
     padding-top: 25px;
     position: relative;
@@ -805,7 +805,7 @@ header .text h1 {
 /* about page */
 
 #textDiv {
-    padding-left: 20vh;
+    padding-left: 21vh;
     padding-right: 28vh;
     padding-bottom: 130px;
 }
