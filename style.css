@@ -4,7 +4,185 @@ body {
     font-family: EBGaramond-Regular;
     background-color: #100720;
     color: white;
+    overflow-x: hidden;
+    
 }
+
+.textDiv ::after{
+    text-align: justify;
+}
+
+.background__wrapper {
+    overflow: hidden;
+    position: absolute;
+    top: 529vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1350\ px-02.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+
+.background__wrapper2 {
+    overflow: hidden;
+    position: absolute;
+    top: 107vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background2 {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1080px\ type\ 2-01.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+.background__wrapper3 {
+    overflow: hidden;
+    position: absolute;
+    top: 357vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background3 {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1080\ px\ type\ 3-03.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+.background__wrapper4 {
+    overflow: hidden;
+    position: absolute;
+    top: 320vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background4 {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1350\ px\ type\ 2-04.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+
+.background__wrapper5 {
+    overflow: hidden;
+    position: absolute;
+    top: 338vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background5 {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1080\ px\ next\ type\ -05.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+.background__wrapper6 {
+    overflow: hidden;
+    position: absolute;
+    top: 237vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background6 {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1080\ px\ next\ type\ -06.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+.background__wrapper7 {
+    overflow: hidden;
+    position: absolute;
+    top: 300vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background7 {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1080\ px\ next\ type\ -07.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+.background__wrapper8 {
+    overflow: hidden;
+    position: absolute;
+    top: 265vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;  
+}
+
+.background8 {
+    position: absolute;
+    top: -20vh;
+    left: -20vw;
+    width: 140vw;
+    height: 140vh;
+    background-image: url("../Project Image/Works/gradient\ bg\ 1280\ x\ 1080\ px\ next\ type\ -07.png");
+    background-size: cover;
+    background-position: center;
+    filter: url("#turbulence");
+}
+
+
 ul {
     list-style: none;
 }
@@ -49,10 +227,12 @@ nav {
 header {
     margin: 45px 0 65px 150px; 
     /* top right bottom left */
+    
 }
 
 header .text {
     font-size: 88px;
+    position: relative;
 }
 
 header .text p {
@@ -65,9 +245,16 @@ header .text h1 {
 
 /* slideshow */
 
+.navigation-manual {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7vh;
+}
+
  .slideshow {
     display: flex;
     justify-content: center
+    
 }
 
 .slider {
@@ -80,6 +267,7 @@ header .text h1 {
     width: 500%;
     height: 500px;
     display: flex;
+    position: relative;
 }
 
 .slides input {
@@ -93,23 +281,15 @@ header .text h1 {
 
 .slide img {
     width: 800px;
-    height: 500px;
+    height: 400px;
 
 }
 
 
-
-.navigation-manual {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 800px;
-    margin-top: 75vh;
-}
 
 .manual-btn {
     border: 2px solid #FFC23C;
-    padding: 5px;
+    padding: 7px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
@@ -181,6 +361,13 @@ header .text h1 {
     height: 500px;
 } */
 
+
+
+  
+
+
+
+
 /* projects page */
 
 .projects {
@@ -202,6 +389,7 @@ header .text h1 {
 
 .project-page {
     padding-bottom: 21vh;
+    position: relative;
 }
 
 .project-name {
@@ -242,6 +430,7 @@ header .text h1 {
 .image-1 {
     display: flex;
     padding-top: 60px;
+    position: relative;
 }
 
 .image-1 img {
@@ -262,7 +451,7 @@ header .text h1 {
 .image-1 .column-1 p {
     font-size: 48px;
     padding-top: 8vh;
-    padding-right: 85px;
+    padding-right: 69px;
 }
 
 
@@ -271,6 +460,7 @@ header .text h1 {
 .image-2 .column-3 .pertama img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 
@@ -281,6 +471,7 @@ header .text h1 {
 .image-2 .column-3 .kedua img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 
@@ -308,7 +499,8 @@ header .text h1 {
 
 .column-3 p {
     font-size: 48px;
-    padding: 8vh 376px 8vh 70vh;
+    padding: 8vh 200px 8vh 70vh;
+    position: relative;
 }
 
 .kedua img {
@@ -345,14 +537,14 @@ header .text h1 {
 }
 
 .theimage {
-    display: flex;
+    display: flex;  
     justify-content: end;
-    padding-right: 30vh;
+    padding-right: 209px;
 }
 
 .content p {
     font-size: 48px;
-    padding: 8vh 400px 8vh 70vh
+    padding: 8vh 200px 8vh 71vh;
 }
 
 /* illusion */
@@ -360,22 +552,30 @@ header .text h1 {
 .content2 {
     display: flex;
     justify-content: center;
+    padding-left: 37vh;
     padding-top: 60px;
-    padding-left: 38vh;
+    position: relative;
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.content2:hover {
+    opacity: 1;
 }
 
 .we p {
     font-size: 48px;
-    padding: 8vh 400px 8vh;
-    padding-left: 71vh;
-
+    padding-left: 70vh;
+    padding-right: 36vh;
+    padding-top: 25px;
+    position: relative;
 }
-
 /* klairs */
 
 .image-1 .column-1 .special1 img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 
@@ -386,6 +586,7 @@ header .text h1 {
 .image-1 .column-1 .special img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 
@@ -396,6 +597,7 @@ header .text h1 {
 .column-4 img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 .column-4:hover img {
@@ -420,11 +622,13 @@ header .text h1 {
 }
 
 .column-4 p {
-    padding: 13vh 30vh 0vh 0vh;
+    padding: 8vh 30vh 0vh 0vh;
     font-size: 48px;
+    position: relative;
 }
 
 /* exhibition */
+
 
 .column-5 img {
     opacity: 0.5;
@@ -438,6 +642,7 @@ header .text h1 {
 .column-6 img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 .column-6:hover img {
@@ -447,6 +652,7 @@ header .text h1 {
 .column-7 img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 .column-7:hover img {
@@ -479,7 +685,7 @@ header .text h1 {
 .column-6 img {
     width: 500px;
     padding-top: 25vh;
-    margin-left: 84vh;
+    margin-left: 96vh;  
     margin-bottom: 39px;
 }
 
@@ -490,7 +696,7 @@ header .text h1 {
 
 .column-6 p {
     font-size: 48px;
-    padding: 0vh 148px 8vh 84vh;
+    padding: 0vh 148px 8vh 96vh;
 }
 
 .project-name6 {
@@ -518,7 +724,7 @@ header .text h1 {
 }
 
 .other img {
-    padding-top: 94px;
+    padding-top: 95px;
 }
 
 .display {
@@ -550,6 +756,7 @@ header .text h1 {
 .lala .image-6 img { 
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 .lala .image-6:hover img {
@@ -559,6 +766,7 @@ header .text h1 {
 .lala .beep img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 .lala .beep:hover img {
@@ -568,6 +776,7 @@ header .text h1 {
 .image-7 img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 .image-7:hover img {
@@ -577,6 +786,7 @@ header .text h1 {
 .lala2 .other img {
     opacity: 0.5;
     transition: .5s ease;
+    position: relative;
 }
 
 .lala2 .other:hover img {
@@ -595,8 +805,8 @@ header .text h1 {
 /* about page */
 
 #textDiv {
-    padding-left: 21vh;
-    padding-right: 30vh;
+    padding-left: 23vh;
+    padding-right: 35vh;
     padding-bottom: 130px;
 }
 
