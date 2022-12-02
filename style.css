@@ -15,7 +15,7 @@ body {
 .background__wrapper {
     overflow: hidden;
     position: absolute;
-    top: 529vh;
+    top: 490vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -37,7 +37,7 @@ body {
 .background__wrapper2 {
     overflow: hidden;
     position: absolute;
-    top: 107vh;
+    top: 100vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -58,7 +58,7 @@ body {
 .background__wrapper3 {
     overflow: hidden;
     position: absolute;
-    top: 357vh;
+    top: 342vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -79,7 +79,7 @@ body {
 .background__wrapper4 {
     overflow: hidden;
     position: absolute;
-    top: 320vh;
+    top: 300vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -101,7 +101,7 @@ body {
 .background__wrapper5 {
     overflow: hidden;
     position: absolute;
-    top: 338vh;
+    top: 327vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -122,7 +122,7 @@ body {
 .background__wrapper6 {
     overflow: hidden;
     position: absolute;
-    top: 237vh;
+    top: 224vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -143,7 +143,7 @@ body {
 .background__wrapper7 {
     overflow: hidden;
     position: absolute;
-    top: 300vh;
+    top: 288vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -164,7 +164,7 @@ body {
 .background__wrapper8 {
     overflow: hidden;
     position: absolute;
-    top: 265vh;
+    top: 250vh;
     left: 0;
     width: 100vw;
     height: 100vh;  
@@ -281,7 +281,7 @@ header .text h1 {
 
 .slide img {
     width: 800px;
-    height: 400px;
+    height: 450px;
 
 }
 
@@ -499,7 +499,7 @@ header .text h1 {
 
 .column-3 p {
     font-size: 48px;
-    padding: 8vh 200px 8vh 70vh;
+    padding: 8vh 200px 8vh 65vh;
     position: relative;
 }
 
@@ -539,12 +539,12 @@ header .text h1 {
 .theimage {
     display: flex;  
     justify-content: end;
-    padding-right: 209px;
+    padding-right: 221px;
 }
 
 .content p {
     font-size: 48px;
-    padding: 8vh 200px 8vh 71vh;
+    padding: 8vh 200px 8vh 66vh;
 }
 
 /* illusion */
@@ -552,7 +552,7 @@ header .text h1 {
 .content2 {
     display: flex;
     justify-content: center;
-    padding-left: 37vh;
+    padding-left: 35vh;
     padding-top: 60px;
     position: relative;
     opacity: 0.5;
@@ -565,7 +565,7 @@ header .text h1 {
 
 .we p {
     font-size: 48px;
-    padding-left: 70vh;
+    padding-left: 67vh;
     padding-right: 36vh;
     padding-top: 25px;
     position: relative;
@@ -685,7 +685,7 @@ header .text h1 {
 .column-6 img {
     width: 500px;
     padding-top: 25vh;
-    margin-left: 96vh;  
+    margin-left: 80vh;  
     margin-bottom: 39px;
 }
 
@@ -696,7 +696,7 @@ header .text h1 {
 
 .column-6 p {
     font-size: 48px;
-    padding: 0vh 148px 8vh 96vh;
+    padding: 0vh 148px 8vh 80vh;
 }
 
 .project-name6 {
@@ -724,7 +724,7 @@ header .text h1 {
 }
 
 .other img {
-    padding-top: 95px;
+    padding-top: 54px;
 }
 
 .display {
@@ -805,8 +805,8 @@ header .text h1 {
 /* about page */
 
 #textDiv {
-    padding-left: 23vh;
-    padding-right: 35vh;
+    padding-left: 20vh;
+    padding-right: 28vh;
     padding-bottom: 130px;
 }
 
